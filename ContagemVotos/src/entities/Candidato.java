@@ -37,4 +37,9 @@ public class Candidato {
     public int hashCode() {
         return getName() != null ? getName().hashCode() : 0;
     }
+
+    @Override
+    public String toString() {
+        return name + ": " + vote;
+    }
 }
